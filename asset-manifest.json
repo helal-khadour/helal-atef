@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/helal-atef/static/css/main.073c9b0a.css",
-    "main.js": "/helal-atef/static/js/main.74e1005c.js",
+    "main.js": "/helal-atef/static/js/main.f188df93.js",
     "static/js/787.d235c461.chunk.js": "/helal-atef/static/js/787.d235c461.chunk.js",
-    "static/media/logo.svg": "/helal-atef/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Portfolio.png": "/helal-atef/static/media/Portfolio.b8769285a43030acf968.png",
     "index.html": "/helal-atef/index.html",
     "main.073c9b0a.css.map": "/helal-atef/static/css/main.073c9b0a.css.map",
-    "main.74e1005c.js.map": "/helal-atef/static/js/main.74e1005c.js.map",
+    "main.f188df93.js.map": "/helal-atef/static/js/main.f188df93.js.map",
     "787.d235c461.chunk.js.map": "/helal-atef/static/js/787.d235c461.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.74e1005c.js"
+    "static/js/main.f188df93.js"
   ]
 }
