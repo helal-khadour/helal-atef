@@ -1,16 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.1d031e8e.css",
-    "main.js": "/static/js/main.dbdfa0ab.js",
+    "main.css": "/static/css/main.5b188193.css",
+    "main.js": "/static/js/main.70ddeec1.js",
     "static/js/787.d235c461.chunk.js": "/static/js/787.d235c461.chunk.js",
-    "static/media/Hero.svg": "/static/media/Hero.e642d51b9911980404820c6812c724c9.svg",
+    "static/media/Process.svg": "/static/media/Process.e2f7b0e0a923ba71e143f660b996da92.svg",
+    "static/media/Lila.png": "/static/media/Lila.8b8cee8d161fdfb8f976.png",
+    "static/media/Interaction Design.svg": "/static/media/Interaction Design.84247ea93a7fd70f5c6ff1aad0c4541c.svg",
+    "static/media/AccessibilityDesign.svg": "/static/media/AccessibilityDesign.c79da2db6c40e3324e89dbf8bb17723c.svg",
+    "static/media/designSystem.svg": "/static/media/designSystem.f104b3767f9a7ae8af88d7fb87e1713a.svg",
+    "static/media/User Research.svg": "/static/media/User Research.cb268ecd0fe3643d93ba3926f79ecede.svg",
+    "static/media/UI.svg": "/static/media/UI.5c5668c7ca2c4a7e9ae9b095987ffb98.svg",
+    "static/media/Wireframing and Prototyping.svg": "/static/media/Wireframing and Prototyping.239cb2544a6c3bfb9a80e2264bc35515.svg",
     "index.html": "/index.html",
-    "main.1d031e8e.css.map": "/static/css/main.1d031e8e.css.map",
-    "main.dbdfa0ab.js.map": "/static/js/main.dbdfa0ab.js.map",
+    "static/media/Arrow.svg": "/static/media/Arrow.ef7d32b3721d0db4eb349160ac5761c0.svg",
+    "static/media/point.svg": "/static/media/point.5657db302668e5324e84.svg",
+    "main.5b188193.css.map": "/static/css/main.5b188193.css.map",
+    "main.70ddeec1.js.map": "/static/js/main.70ddeec1.js.map",
     "787.d235c461.chunk.js.map": "/static/js/787.d235c461.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d031e8e.css",
-    "static/js/main.dbdfa0ab.js"
+    "static/css/main.5b188193.css",
+    "static/js/main.70ddeec1.js"
   ]
 }
