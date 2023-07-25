@@ -2,7 +2,7 @@ import './landing.css';
 import Process from '../process/process'
 import Projects from '../projects/projects'
 import Articles from '../Articles/articles'
-import Updates from '../Updates/updates'
+// import Updates from '../Updates/updates'
 const Landing = () => {
   return (
     <div className="App" >
@@ -19,11 +19,11 @@ const Landing = () => {
         <div className='section'>
           <div className="heroSection" >
             <h1>UI/UX <span style={{ display: 'block' }}>Designer</span></h1>
-            <p>Passionate UI/UX designer specializing in creating exceptional user experiences. Through a harmonious blend of aesthetics and functionality.
+            <p className="bodayHigh">Passionate UI/UX designer specializing in creating exceptional user experiences. Through a harmonious blend of aesthetics and functionality.
             </p>
           </div>
         </div>
-        <Updates />
+        {/* <Updates /> */}
         <Process />
         <Projects />
         <Articles />

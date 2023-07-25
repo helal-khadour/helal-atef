@@ -33,7 +33,7 @@ const Process = () => {
         <div className="column">
           <div className='titleContainer'>
             <p>Process</p>
-            <h2 >Think Create Test Repeate   </h2>
+            <h2 >Think. Create. Test. Repeate.</h2>
           </div>
           <Plan />
           {rowsData.map((row) => (

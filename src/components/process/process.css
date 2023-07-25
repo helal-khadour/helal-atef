@@ -1,15 +1,4 @@
-:root {
-    --primary-color: #FBE67F;
-    --secondary-color: #4F64D7;
-    --on-primary: white;
-    --background: #F4F3F0;
-    --text-primary: #161616;
-    --text-secondary: #45464B;
-    --gray: #E0E0E0;
-    --surface: #FEFEFE;
-
-}
-
+@import "../../App.css";
 
 
 
@@ -28,12 +17,12 @@
 }
 
 .processImg {
-    background-color: #FBFBFB;
+    background-color: var(--background);
     background-image: url('../../Img/point.svg');
     background-repeat: repeat;
     width: 100%;
     border-radius: 32px;
-    border: 1px solid black;
+    border: 1px solid var(--text-primary);
     height: 100%;
 }
 
@@ -42,9 +31,10 @@
     flex-direction: column;
     align-content: flex-start;
     align-items: flex-start;
-    border-left: 1px dashed black;
     flex: 1;
-    padding: 16px 16px 0px 16px;
+    border: 1px solid var(--text-primary);
+    padding: 40px;
+    border-radius: 16px;
     gap: 8px;
 
 }
@@ -52,9 +42,6 @@
 
 
 
-.titleContainer {
-    margin-bottom: 64px;
-}
 
 
 .process .section{
@@ -66,13 +53,12 @@
 
 .helloSection {
     border-radius: 32px;
-    border: 1px solid black;
+    border: 1px solid var(--text-primary);
     background: var(--surface);
     height: 60vh;
     width: 100%;
     background-image: url('../../Img/point.svg');
     background-repeat: repeat;
-
     padding: 40px 0px;
 
 }
@@ -92,7 +78,7 @@
 
 .outer-circle {
     fill: none;
-    stroke: #000000;
+    stroke: var(--text-primary);
     stroke-width: 1px;
     stroke-dasharray: 900;
     stroke-dashoffset: 900;
@@ -109,40 +95,44 @@
 
 .outer-circles {
     fill: none;
-    stroke: #000000;
+    stroke: var(--text-primary);
     stroke-width: 1px;
     stroke-dasharray: 900;
     stroke-dashoffset: 900;
-    transition: all 2s ease;
+    transition: all 4s ease;
 }
 
 .outer-circles.active {
     stroke-dashoffset: 0;
     fill: none;
-    transition: all 2s ease;
+    transition: all 4s ease;
 }
 
 
 
 .outer-type {
     fill: none;
-    transition: all 2s ease;
+    transition: all 4s ease;
 }
 
 .outer-type.active {
     stroke-dashoffset: 0;
     fill: var(--text-primary);
-    transition: all 2s ease;
+    transition: all 4s ease;
 
 }
 
 .s.outer-type.active {
     fill: var(--surface);
-    transition: all 2s ease;
+    transition: all 4s ease;
 
 }
 
 #s.active {
     fill: var(--secondary-color);
     transition: all 0.4s ease;
+}
+
+.card-title{
+margin-bottom: 12px;
 }

@@ -1,16 +1,5 @@
-:root {
-    --primary-color: #FBE67F;
-    --secondary-color: #4F64D7;
-    --on-primary: white;
-    --background: #F4F3F0;
-    --text-primary: #161616;
-    --text-secondary: #45464B;
-    --gray: #E0E0E0;
-    --surface: #FEFEFE;
-  
-  }
-  
-  
+@import "../../App.css";
+
   .updatesContainer {
     display: flex;
     width: calc(100%-8px);
@@ -31,16 +20,27 @@
   .updatesContainer:hover {
     box-sizing: border-box;
     border: 1px solid var(--secondary-color);
-    transition: all 0.2 ease;
+    transition: all 0.4s ease;
+    cursor: pointer;
   }
   
   .updateImg {
     background-color: var(--primary-color);
-    background-position: center;
-    border-radius: 24px;
-    border: 1px solid black;
+    display: flex;
+    justify-self: end;
+    align-items: center;
+    align-content: center;
+    border-radius: 20px;
+    border: 1px solid var(--text-primary);
+    width: 176px;
     height: 88px;
-    width: 104px;
-  
+
   }
-  
+  .updateImg img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .updatesContainer .subTitle{
+    color: var(--secondary-color);
+  }

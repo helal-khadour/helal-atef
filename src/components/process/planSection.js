@@ -47,7 +47,7 @@ const ProcessSection = () => {
           />
 
           <text className={showCircle ? 'outer-type active' : 'outer-type'} fill="#000000" x="267" y="413.5" textAnchor="middle" dominantBaseline="middle">
-            Wireframe
+          Discovery 
           </text>
         </g>
 
@@ -77,7 +77,7 @@ const ProcessSection = () => {
         <g className="outer-circle-container">
           <circle className={showCircle ? 'outer-circle active ' : 'outer-circle'} cx="415" cy="245.5" r="81" fill="#E0E0E0" stroke="black" />
           <text className={showCircle ? 'outer-type active' : 'outer-type'} fill="#000000" x="415" y="245.5" textAnchor="middle" dominantBaseline="middle">
-            Discovery
+            Wireframe
           </text>
         </g>
         <circle className={showCircle ? 'outer-circle active' : 'outer-circle'} cx="30" cy="247.5" r="3" fill="#E0E0E0" stroke="black" />

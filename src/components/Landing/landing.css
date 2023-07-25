@@ -1,48 +1,43 @@
-:root {
-    --primary-color: #FBE67F;
-    --secondary-color: #4F64D7;
-    --on-primary: white;
-    --background: #F4F3F0;
-    --text-primary: #161616;
-    --text-secondary: #45464B;
-    --gray: #E0E0E0;
-    --surface: #FEFEFE;
-  
-  }
+@import "../../App.css";
 
-  
-  
-  
-  .NavBar {
-    display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: space-between;
-    width: calc(100%-72px);
-    padding: 32px 0px;
-    margin-top: 0 !important;
-    margin: 0px 72px 0px 72px;
-  }
-  
-  .footer {
-    display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: space-between;
-  
-    width: 100%;
-    padding: 24px 0px;
-  }
-  
-  
-  
-  .footer span {
-    font-size: 20px;
-    font-weight: 900;
-    line-height: 28px;
-    ;
-  }
-  
-  
-  
-  
+.bodayHigh {
+  font-size: 32px;
+  line-height: 48px !important;
+  width: 60vw;
+}
+
+.heroSection {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.NavBar {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(100%-72px);
+  padding: 32px 0px;
+  margin-top: 0 !important;
+  margin: 0px 72px 0px 72px;
+
+}
+
+.footer {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 24px 0px;
+}
+
+
+
+.footer span {
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 28px;
+  ;
+}

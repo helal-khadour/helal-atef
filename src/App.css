@@ -15,7 +15,7 @@ body {
   /* Default margin */
   padding: 0px;
   /* Default margin */
-
+  color: var(--text-primary)
 }
 
 
@@ -34,6 +34,7 @@ h2 {
   font-weight: 700;
   padding: 0;
   margin: 0;
+
 }
 
 h3 {
@@ -42,6 +43,7 @@ h3 {
   font-weight: 700;
   padding: 0;
   margin: 0;
+  
 }
 
 h4 {
@@ -49,6 +51,7 @@ h4 {
   line-height: 28px;
   padding: 0;
   margin: 0;
+ 
 }
 
 p {
@@ -56,6 +59,7 @@ p {
   line-height: 24px !important;
   padding: 0;
   margin: 0;
+
 }
 
 
@@ -64,27 +68,27 @@ p {
 a {
   font-size: 20px;
   text-decoration: none;
-  color: black;
+  color: var(--text-primary);
   font-weight: 700;
 }
 
 .section {
-
-  margin: 180px 72px 0px 72px;
+  margin: 188px 72px 0px 72px;
 }
 
 
 
 
 
-
+.titleContainer {
+margin-bottom: 40px;
+}
 .column {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 40px;
-
+  gap: 24px;
 }
 
 .row {
@@ -105,20 +109,6 @@ button {
   color: var(--secondary-color);
   border-radius: 25px;
 }
-
-
-
-
-
-
-.titleContainer {
-  margin-bottom: 64px;
-}
-
-
-
-
-
 
 
 

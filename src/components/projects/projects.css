@@ -1,23 +1,12 @@
-:root {
-    --primary-color: #FBE67F;
-    --secondary-color: #4F64D7;
-    --on-primary: white;
-    --background: #F4F3F0;
-    --text-primary: #161616;
-    --text-secondary: #45464B;
-    --gray: #E0E0E0;
-    --surface: #FEFEFE;
-  
-  }
-
+@import "../../App.css";
   .projectContainer {
     display: flex;
     flex-direction: column;
     align-content: flex-start;
     align-items: flex-start;
     flex: 1;
-    background: white;
-    border: 1px solid black;
+    background: var(--background);
+    border: 1px solid var(--text-primary);
     border-radius: 2.5vw;
     overflow: hidden;
   
@@ -53,9 +42,29 @@
     justify-content: space-between;
     padding: 32px;
   }
-  .titleContainer {
-    margin-bottom: 64px;
+
+  
+  .sd {
+    background-color: aqua;
+    width: 100%;
+    height: 40vh;
   }
-  
-  
-  
+
+  .suv {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+  }
+
+  .ssss{
+display: flex;
+flex: 1;
+width: 100%;
+  }
+
+
+  .sd img{
+    width: 40vw;
+   
+  }
