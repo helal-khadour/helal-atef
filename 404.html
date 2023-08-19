@@ -5,9 +5,8 @@
     <meta charset="utf-8">
     <title>Page Not Found</title>
     <script type="text/javascript">
-        if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') {
-            window.location.replace('/404'); // Redirect to the homepage for client-side routing to take over
-        }
+        // Redirect to the root URL and let client-side routing handle the error
+        window.location.href = '/';
     </script>
 </head>
 
