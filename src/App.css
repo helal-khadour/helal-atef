@@ -43,20 +43,21 @@ h3 {
   font-weight: 700;
   padding: 0;
   margin: 0;
-  
+
 }
 
 h4 {
   font-size: 24px;
-  line-height: 28px;
+  line-height: 40px;
+  font-weight: 700;
   padding: 0;
   margin: 0;
- 
+
 }
 
 p {
   font-size: 18px;
-  line-height: 24px !important;
+  line-height: 28px !important;
   padding: 0;
   margin: 0;
 
@@ -73,16 +74,32 @@ a {
 }
 
 .section {
-  margin: 188px 72px 0px 72px;
+  margin: 0px 72px 0px 72px;
 }
 
 
 
+.link {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
 
+.link:hover {
+  color: var(--secondary-color);
+}
+
+.selected-link {
+  color: var(--text-primary);
+  text-decoration: underline;
+}
 
 .titleContainer {
-margin-bottom: 40px;
+  margin-bottom: 40px;
 }
+
 .column {
   display: flex;
   flex-direction: column;
@@ -110,62 +127,101 @@ button {
   border-radius: 25px;
 }
 
+.Loading {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
 
+.rowLoading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 16px;
+}
 
+.rowLoading img {
+  width: 56px;
+}
 
 @media screen and (max-width: 1200px) {
   .section {
 
     margin: 180px 72px 0px 72px;
   }
-  
+
 
 }
 
 @media screen and (max-width: 900px) {
   .section {
+    margin: 72px 20px 0px 20px !important;
+  }
 
-    margin: 120px 20px 0px 20px !important; 
-  } 
   .row {
     flex-direction: column;
-    gap: 64px !important;
+    gap: 28px !important;
 
   }
 
-  .processContainer {
-    flex-direction: column;
+
+  h1 {
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
   }
 
-  .processContainer>img {
-    width: 80vw;
-    height: 20vh !important;
+  h2 {
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+
   }
 
-  .heroSection> :nth-child(2) {
-    padding-top: 16px;
-    width: 90vw !important;
+  h3 {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+
+  }
+
+  h4 {
     font-size: 20px;
-  }
-
-  .heroSection {
-    height: 65vh !important;
-  }
-
-  .articleContainer {
-    flex-direction: column !important;
-    gap: 16px !important;
-  }
-
-  .section:nth-child(4) {
-    margin: 120px 0px 0px 0px !important;
-    background-color: var(--primary-color);
-    padding: 88px 20px;
+    line-height: 28px;
+    padding: 0;
+    margin: 0;
 
   }
-  .helloSection {
-    height: 30vh !important;
 
+  p {
+    font-size: 18px;
+    line-height: 24px !important;
+    padding: 0;
+    margin: 0;
+
+  }
+
+  a {
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration: none;
+    color: var(--text-primary);
+    font-weight: 700;
+  }
+
+  .titleContainer {
+    margin-bottom: 0px;
   }
 
 }

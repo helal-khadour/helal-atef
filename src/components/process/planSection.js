@@ -12,7 +12,7 @@ const ProcessSection = () => {
       const container = svgContainerRef.current;
       if (container) {
         const viewportHeight = window.innerHeight;
-        if (scrollPosition >= (viewportHeight - 200)) {
+        if (scrollPosition >= (viewportHeight - 600)) {
           setShowCircle(true);
         }
         else {

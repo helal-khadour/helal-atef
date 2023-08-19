@@ -6,10 +6,17 @@
   width: 60vw;
 }
 
+.Hero .section {
+  height: 60vh;
+  display: flex;
+  align-items: end;
+}
+
 .heroSection {
   display: flex;
   flex-direction: column;
   gap: 12px;
+
 }
 
 .NavBar {
@@ -17,11 +24,9 @@
   align-content: center;
   align-items: center;
   justify-content: space-between;
-  width: calc(100%-72px);
   padding: 32px 0px;
   margin-top: 0 !important;
-  margin: 0px 72px 0px 72px;
-
+  margin: 0px 72px;
 }
 
 .footer {
@@ -29,15 +34,48 @@
   align-content: center;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
-  padding: 24px 0px;
+  padding: 32px 72px;
+
 }
-
-
 
 .footer span {
   font-size: 20px;
   font-weight: 900;
   line-height: 28px;
-  ;
+}
+
+.App .section {
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 900px) {
+  .Hero .section {
+    height: 50vh;
+    display: flex;
+    align-items: end;
+  }
+
+  .NavBar {
+
+    margin: 0px 20px;
+  }
+
+  .bodayHigh {
+    font-size: 28px !important;
+    line-height: 40px !important;
+    width: 90vw !important;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 4px;
+    padding: 32px 0px;
+  }
+
+  .footer span {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 28px;
+
+  }
 }

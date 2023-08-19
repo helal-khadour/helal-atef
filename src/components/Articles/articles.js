@@ -4,8 +4,8 @@ import Accessibility from '../../Img/AccessibilityDesign.svg';
 import Arrow from '../../Img/Arrow.svg';
 const sectionsData = [
     { id: 1, title: "User Interface Visualizations", subTitle: "Jun, 2023", chips01: "Interactions", chips02: "UI" },
-    { id: 2, title: "Building a Robust Design System", subTitle: "Jul, 2022", chips01: "UI", chips02: "Design System"  },
-    
+    { id: 2, title: "Building a Robust Design System", subTitle: "Jul, 2022", chips01: "UI", chips02: "Design System" },
+
 ];
 const Articles = () => {
     return (

@@ -1,1 +1,52 @@
 @import "../../App.css";
+
+.Info {
+    min-height: calc(100vh - 193px);
+    margin: 0px 72px;
+    display: flex;
+    gap: 180px;
+    align-items: center;
+}
+
+.Info .leftSection {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.rightSection img {
+    height: 60vh;
+}
+
+.height {
+    font-size: 32px !important;
+    line-height: 52px !important;
+}
+
+@media screen and (max-width: 900px) {
+
+    .Info {
+        height: 100%;
+        margin: 0px 20px;
+        display: flex;
+        gap: 24px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Info .leftSection {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        order: 1;
+    }
+
+    .rightSection img {
+        height: 45vh;
+    }
+
+    .height {
+        font-size: 24px !important;
+        line-height: 42px !important;
+    }
+}

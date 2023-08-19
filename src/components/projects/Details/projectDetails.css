@@ -1,0 +1,55 @@
+.bannerSection {
+    height: 85Vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: linear-gradient(226deg, rgba(255, 180, 0, 0.69) 0%, rgba(0, 95, 115, 0.69) 100%);
+}
+
+.bannerImg {
+    height: 75%;
+}
+
+.scrensSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 32px;
+    width: calc(100% -2px);
+    height: 65vh;
+    flex: 1;
+    margin: 72px;
+}
+
+.scrensSection div {
+    flex: 1;
+    background: #005F73;
+    border-radius: 32px;
+    border: 1px solid black;
+    height: 100%;
+}
+
+.scrensSection div:nth-child(2) {
+
+    background: #DFDFDF;
+
+
+}
+
+.scrensSection div:nth-child(3) {
+
+    background: #FFB400;
+
+
+}
+
+.scrensSection div img {
+    width: 100%;
+    /* Fill the width of the box */
+    height: auto;
+    /* Maintain aspect ratio */
+    display: block;
+}
