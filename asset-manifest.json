@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.de9ccf99.css",
+    "main.css": "/static/css/main.026bc7dd.css",
     "main.js": "/static/js/main.b27f2c83.js",
     "static/js/787.d235c461.chunk.js": "/static/js/787.d235c461.chunk.js",
     "static/media/ReviewIt Mobile App.png": "/static/media/ReviewIt Mobile App.9dc66bd3ba08f34e9c07.png",
@@ -22,12 +22,12 @@
     "static/media/LockedIcon.svg": "/static/media/LockedIcon.1fd39579c9b72ff7428005582b68c6f0.svg",
     "index.html": "/index.html",
     "static/media/Wireframing and Prototyping.svg": "/static/media/Wireframing and Prototyping.239cb2544a6c3bfb9a80e2264bc35515.svg",
-    "main.de9ccf99.css.map": "/static/css/main.de9ccf99.css.map",
+    "main.026bc7dd.css.map": "/static/css/main.026bc7dd.css.map",
     "main.b27f2c83.js.map": "/static/js/main.b27f2c83.js.map",
     "787.d235c461.chunk.js.map": "/static/js/787.d235c461.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de9ccf99.css",
+    "static/css/main.026bc7dd.css",
     "static/js/main.b27f2c83.js"
   ]
 }
