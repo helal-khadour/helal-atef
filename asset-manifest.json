@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.47065e46.css",
-    "main.js": "/static/js/main.16fd448b.js",
+    "main.css": "/static/css/main.8b3eb21c.css",
+    "main.js": "/static/js/main.a7722875.js",
     "static/js/787.d235c461.chunk.js": "/static/js/787.d235c461.chunk.js",
     "static/media/ReviewIt Mobile App.png": "/static/media/ReviewIt Mobile App.763f4e1d640df62bb234.png",
     "static/media/Mealtime Mobile App.png": "/static/media/Mealtime Mobile App.2f9e44b83e79b4beb485.png",
@@ -23,12 +23,13 @@
     "static/media/LockedIcon.svg": "/static/media/LockedIcon.1fd39579c9b72ff7428005582b68c6f0.svg",
     "index.html": "/index.html",
     "static/media/Wireframing and Prototyping.svg": "/static/media/Wireframing and Prototyping.239cb2544a6c3bfb9a80e2264bc35515.svg",
-    "main.47065e46.css.map": "/static/css/main.47065e46.css.map",
-    "main.16fd448b.js.map": "/static/js/main.16fd448b.js.map",
+    "static/media/point.svg": "/static/media/point.d6e43c544ac0466d6e7b.svg",
+    "main.8b3eb21c.css.map": "/static/css/main.8b3eb21c.css.map",
+    "main.a7722875.js.map": "/static/js/main.a7722875.js.map",
     "787.d235c461.chunk.js.map": "/static/js/787.d235c461.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47065e46.css",
-    "static/js/main.16fd448b.js"
+    "static/css/main.8b3eb21c.css",
+    "static/js/main.a7722875.js"
   ]
 }
