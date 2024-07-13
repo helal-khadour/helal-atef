@@ -6,28 +6,26 @@
   display: flex;
   flex-direction: row;
   align-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   border-top: 1px solid var(--text-primary);
-  padding: 24px;
+  padding: 16px;
   gap: 16px;
   transition: all 0.4s ease;
 }
 
-.articleContainer:last-child {
-  border-bottom: 1px solid var(--text-primary);
-}
+
 
 .articleContainer .row {
   align-items: center;
 }
 
-.articleContainer:hover {
+/* .articleContainer:hover {
   border-top: 1px solid var(--secondary-color);
   color: var(--secondary-color) !important;
   transition: all 0.4 ease;
   cursor: pointer;
-}
+} */
 
 .articleContainer> :nth-child(2) {
   flex: 1;
@@ -39,11 +37,27 @@
   align-items: center;
   height: 88px;
   width: 88px;
-  background-color: var(--primary-color);
-  border: 1px solid black;
+  background-color: white;
   border-radius: 24px;
-
 }
+
+
+
+.articleContainer .articalImg img {
+  height: 48px;
+  width: auto;
+}
+
+.articleContainer:nth-of-type(2) .articalImg img {
+  height: auto;
+  width: 48px;
+}
+
+.articleContainer:nth-of-type(4) .articalImg img {
+  height: auto;
+  width: 70px;
+}
+
 
 
 .articleContainer .textContainer {
@@ -52,19 +66,47 @@
   gap: 8px;
 }
 
-.chipsContainer {
-  display: flex;
-  gap: 8px;
-}
 
-.chip {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24px;
-  padding: 2px 20px;
-  width: fit-content;
-  border: 1px solid black;
-  box-sizing: border-box;
-  color: var(--text-primary);
-  border-radius: 25px;
+@media screen and (max-width: 900px) {
+
+  .articleContainer .row {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8px !important;
+  }
+
+  .articleContainer .articalImg {
+    height: 64px;
+    width: 64px;
+    border-radius: 16px;
+  }
+
+  .articleContainer:nth-of-type(4) .articalImg img {
+    height: auto;
+    width: 54px;
+  }
+
+  .articleContainer {
+
+    padding: 12px;
+
+  }
+
+  .articleContainer p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .articleContainer h2 {
+    font-size: 28px;
+    line-height: 38px;
+
+
+  }
+
+  .articleContainer .articalImg img {
+    height: 36px;
+    width: auto;
+  }
+
 }

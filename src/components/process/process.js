@@ -1,17 +1,17 @@
-import './process';
+import './process.css';
 import Accessibility from '../../Img/AccessibilityDesign.svg';
 import DS from '../../Img/designSystem.svg';
 import Interaction from '../../Img/Interaction Design.svg';
 import UI from '../../Img/UI.svg';
 import Research from '../../Img/User Research.svg';
 import Wireframing from '../../Img/Wireframing and Prototyping.svg';
-import Plan from './planSection'
+
 const rowsData = [
   {
     id: 1,
     cards: [
       { id: 1, image: Research, title: "User Research", content: "Conducting in-depth user research to gain insights into user behaviors, needs, and preferences, ensuring the design aligns with user expectations." },
-      { id: 2, image: Wireframing, title: "Wireframing and Prototyping", content: "Creating wireframes and interactive prototypes to visualize the structure, layout, and user flow of the digital product, allowing for early testing and iteration." },
+      { id: 2, image: Wireframing, title: "Wireframing & Prototyping", content: "Creating wireframes and interactive prototypes to visualize the structure, layout, and user flow of the digital product, allowing for early testing and iteration." },
       { id: 3, image: Interaction, title: "Interaction Design", content: "Defining interactive elements, animations, and microinteractions to enhance user engagement and provide seamless interactions within the digital product." },
     ],
   },
@@ -32,24 +32,21 @@ const Process = () => {
       <div className="section">
         <div className="column">
           <div className='titleContainer'>
-            <p>Process</p>
-            <h2 >Think. Create. Test. Repeate.</h2>
+            <h2>Skill Set Showcase</h2>
           </div>
-          <Plan />
-          {rowsData.map((row) => (
-            <div key={row.id} className="row">
-              {row.cards.map((card) => (
-                <div key={card.id} className="serviceContainer">
-                  <img src={card.image} alt="SVG" />
-                  <h3 className="card-title">{card.title}</h3>
-                  <p className="card-content">{card.content}</p>
-                </div>
-              ))}
-            </div>
-          ))}
-
-
-
+          <div className='skills'>
+            {rowsData.map((row) => (
+              <div key={row.id} className="row">
+                {row.cards.map((card) => (
+                  <div key={card.id} className="serviceContainer">
+                    <img src={card.image} alt="SVG" />
+                    <h3 className="card-title">{card.title}</h3>
+                    <p className="card-content">{card.content}</p>
+                  </div>
+                ))}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

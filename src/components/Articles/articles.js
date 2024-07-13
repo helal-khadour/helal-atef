@@ -1,10 +1,18 @@
 
 import './articles.css'
-import Accessibility from '../../Img/AccessibilityDesign.svg';
-import Arrow from '../../Img/Arrow.svg';
+import Tetco from '../../Img/tetco.png';
+import BakerSoft from '../../Img/BakerSoft.png';
+import Unifi from '../../Img/unifi.png';
+import DisruptX from '../../Img/disruptx.png';
+import Mealtime from '../../Img/Mealtime.png';
+import Freelance from '../../Img/freelance.png'
 const sectionsData = [
-    { id: 1, title: "User Interface Visualizations", subTitle: "Jun, 2023", chips01: "Interactions", chips02: "UI" },
-    { id: 2, title: "Building a Robust Design System", subTitle: "Jul, 2022", chips01: "UI", chips02: "Design System" },
+    { id: 1, title: "Sr. UX/UI Designer", date: "Nov 2023 - Present", company: "Tatweer Educational Technologies", location: "Remote, KSA", img: Tetco },
+    { id: 2, title: "Sr. UX/UI Designer", date: "Jul 2023 -  Present", company: "Mealtime", location: "Remote , Germany", img: Mealtime },
+    { id: 3, title: "UX/UI Designer", date: "Oct 2022 -  Nov 2023", company: "BakerSoft", location: "Remote , Germany", img: BakerSoft },
+    { id: 4, title: "Lead UX/UI Designer", date: "Feb 2021 - Sep 2022", company: "Disrupt-X", location: "Dubai, UAE", img: DisruptX },
+    { id: 5, title: "Lead UI Designer", date: "Nov 2020 - Jun 2022", company: "Unifi Solutions", location: "Remote, Canada", img: Unifi },
+    { id: 6, title: "UI Designer", date: "May 2019 - Oct 2020", company: "Freelance", location: "Syria", img: Freelance },
 
 ];
 const Articles = () => {
@@ -13,23 +21,22 @@ const Articles = () => {
             <div className="section">
                 <div className="column">
                     <div className='titleContainer'>
-                        <p>Articales</p>
-                        <h2>Inspiration in Brief</h2>
+
+                        <h2>Work Experiences</h2>
                     </div>
                     {sectionsData.map((section) => (
                         <div className="articleContainer">
                             <div className="articalImg">
-                                <img src={Accessibility} alt="SVG" />
+                                <img src={section.img} alt="companyimage" />
                             </div>
                             <div key={section.id} className="textContainer">
-                                <p >{section.subTitle}</p>
+                                <p >{section.date}</p>
                                 <h3 >{section.title}</h3>
-                                <div className="chipsContainer">
-                                    <div className='chip'>{section.chips01}</div>
-                                    <div className='chip'>{section.chips02}</div>
-                                </div>
+                                <dive className="row">
+                                    <p >{section.company}</p>
+                                    <p >{section.location}</p>
+                                </dive>
                             </div>
-                            <img src={Arrow} alt="SVG" />
                         </div>
                     ))}
                 </div>

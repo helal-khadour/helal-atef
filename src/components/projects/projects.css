@@ -1,72 +1,167 @@
 @import "../../App.css";
-  .projectContainer {
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-    align-items: flex-start;
-    flex: 1;
-    background: var(--background);
-    border: 1px solid var(--text-primary);
-    border-radius: 32px;
-    overflow: hidden;
-  
-  }
-  
-  .projectImg {
-    width: 100%;
-    aspect-ratio: 16/9;
-    border-radius:0px 0px 32px 32px;
-    overflow: hidden;
-  }
-  
-  .projectImg img {
-    filter: grayscale(100%);
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    transition: all 0.5s ease;
-  }
-  .projectImg img:hover{
-    filter: grayscale(0%);
-    transform: scale(1.03);
-    transform-origin: bottom left;
-  
-  }
-  .projectContainer  .projectTitle {
-    width: 100%;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 32px;
-  }
 
-  
-  @media screen and (max-width: 900px) {
+body {
+  overflow-x: hidden;
+}
 
-.projects .column{
-    gap: 28px !important;;
+.projectContainer {
+  display: flex;
+  position: relative;
+  max-width: 100%;
+  aspect-ratio: 1/1;
+  flex-direction: column;
+  flex: 1;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.5s ease;
 }
-.projects .row{
-    gap:28px !important;
+
+.projectContainer:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
+
 .projectImg {
-  border-radius: 0px 0px 24px 24px;
-
+  height: 100%;
+  width: auto;
+  overflow: hidden;
+  transition: all 0.5s ease;
 }
 
-  .projectContainer {
-    border-radius: 24px;
+.projectImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.lockedIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  padding: 16px;
+  border-radius: 50%;
+}
+
+.lockedIcon img {
+  height: 88px;
+  width: 88px;
+}
+
+.projectContainer:hover .projectImg {
+  transform: scale(1.03);
+  transform-origin: bottom left;
+}
+
+.projectContainer:hover .lockedIcon {
+  background: rgba(25, 25, 25, 0.50);
+  opacity: 1;
+}
+
+
+#card-1 {
+  background: #1F5A4D;
+}
+
+#card-2 {
+  background: #C086BC;
+}
+
+#card-3 {
+  background: #4A707A;
+  aspect-ratio: 2/1;
+}
+
+#card-4 {
+  background: #1E8D77;
+}
+
+#card-5 {
+  background: #015F73;
+}
+
+#card-6 {
+  background: #1B1818;
+  aspect-ratio: 2/1;
+}
+
+#card-7 {
+  background: #00534C;
+}
+
+#card-8 {
+  background: #006FF9;
+}
+
+.projectContainer .projectTitle {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 24px;
+  gap: 4px;
+  background: linear-gradient(0deg, rgba(25, 25, 25, 0.10) 0%, rgba(25, 25, 25, 0.10) 100%), rgba(116, 116, 116, 0.10);
+  color: #ffffff;
+}
+
+.chipsContainer {
+  padding-top: 8px;
+  color: #ffffff;
+  display: flex;
+  gap: 8px;
+}
+
+.chip {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 2px 20px;
+  width: fit-content;
+  border: 1px solid white;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+  .projects .column {
+    gap: 28px !important;
 
   }
-  .projectContainer  .projectTitle {
+
+  #card-3 {
+    aspect-ratio: 1/1;
+  }
+
+  #card-6 {
+    aspect-ratio: 1/1;
+  }
+
+  .projects .row {
+    gap: 28px !important;
+  }
+
+  .projectContainer .projectTitle {
     flex-direction: column;
     align-items: start;
     padding: 16px 24px;
   }
-  }
 
-  .projects .column{
-    margin-bottom: 72px;
-  }
+
+}
+
+.projects .column {
+  margin-bottom: 72px;
+}
