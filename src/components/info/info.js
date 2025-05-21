@@ -15,7 +15,7 @@ const Info = () => {
   };
 
   const handleDownloadCV = () => {
-    const cvUrl = 'https://drive.google.com/uc?export=download&id=1x91qXL92nRAAQkQLdAq6PJGCiMlJWsOT';
+    const cvUrl = 'https://drive.google.com/uc?export=download&id=1Z_Pk8Ku6ygLieGYd66_7U5BFxBQhveWs';
     const link = document.createElement('a');
     link.href = cvUrl;
     link.download = 'HelalAtef_CV.pdf';
